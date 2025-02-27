@@ -1,0 +1,36 @@
+::placeholder {
+    color: white; 
+    /* opacity: 1;  */
+    
+  }
+  .contactOuter input {
+    border: 1px solid white;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    display: block;
+    margin: 10px 10px 10px 0;
+  }
+  .contactOuter textarea {
+    border: 1px solid white;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    display: block;
+    resize: none;
+  }
+  /* Hide the spinner in WebKit browsers (Chrome, Safari, Edge) */
+/* input[type="number"]::-webkit-outer-spin-button, */
+.contactOuter input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* For Firefox */
+/* input[type="number"] {
+    -moz-appearance: textfield;
+} */
+
+  

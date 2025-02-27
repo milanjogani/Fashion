@@ -1,0 +1,64 @@
+.collectionImages:hover img {
+   transform: scale(1.1);
+}
+.collectionImages img{
+    transition: all 0.3s;
+    overflow: hidden;
+}
+.collectionInner {
+    cursor: pointer;
+}
+
+/* slider */
+button.slick-arrow.slick-next {
+    display: none !important;
+}
+.slider-container img {
+    width: 55%;
+    height: 225px !important;
+}
+.client_contact h2 {
+    font-size: 50px;
+    text-align: center;
+    margin: 2vw 0;
+}
+.client_contact img {
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Carousel */
+.carouselOuter {
+    background: linear-gradient(rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%),url("../../../public/images/thumb-1920-1027169.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100% !important;
+}
+.carouselOuter .carousleText {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    background-color: transparent !important;
+    /* text-align: center; */
+}
+.carouselOuter .carousleInner .carousleText h2 {
+    font-size: 4vw;
+    /* background: transparent !important; */
+}
+.carouselOuter .carousleInner .carousleText button {
+    background-color: #a36e1f !important;
+    border: 1px solid #e49311;
+}
+
+
+/* PRODUCT-SERVICE */
+.productServiceOuter img {
+    width: 100% !important;
+    height: 100% !important;
+}
+.productServiceOuter .bg-transparent.col-lg-4.card {
+    border: none !important;
+}

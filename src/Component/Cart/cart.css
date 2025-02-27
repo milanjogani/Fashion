@@ -1,0 +1,34 @@
+.table {
+    width: 100%;
+    border-collapse: collapse; /* Border collapse for better styling */
+    /* background-color: #f4f4f4; Light grey background */
+  }
+  
+  .table th, .table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background: transparent;
+    color: white;
+}
+  
+  .table th {
+    background-color: #1F1F21; /* Blue background for headers */
+    color: white; /* White text color for headers */
+  }
+  
+  .btnIcon {
+    background-color: #1F1F21;
+    border-color: #1F1F21;
+    color: white ;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  span.mx-2 {
+    color: white;
+    background: transparent;
+}
+  
